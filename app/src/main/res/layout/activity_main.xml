@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edtunem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ENTER USERNAME"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtpasswd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="PASSWORD"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvhasil"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="HASIL"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
